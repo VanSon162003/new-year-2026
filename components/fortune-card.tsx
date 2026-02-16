@@ -168,7 +168,7 @@ export function FortuneCard() {
                                 </h3>
 
                                 <p className="text-yellow-200 text-base">
-                                    Tính rút quẻ tiếp hay gì
+                                    Bạn đã rút quẻ lộc rồi nhé!
                                 </p>
 
                                 <div className="bg-gradient-to-r from-red-500/20 to-yellow-500/20 border-2 border-yellow-400 rounded-lg p-6">
