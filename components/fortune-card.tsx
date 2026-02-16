@@ -25,45 +25,55 @@ interface SavedFortune {
 const fortunes: Fortune[] = [
     {
         blessing:
-            "Năm nay may mắn sẽ ghé thăm, mọi điều ước sẽ thành hiện thực! 🍀",
+            "Năm nay vũ trụ bật chế độ ưu tiên cho bạn, vía thần tài theo sát từng bước, ước gì được đó — không trượt phát nào! 🍀✨",
         money: 888,
     },
     {
         blessing:
-            "Sức khỏe dồi dào, tình cảm yên bình, công việc thuận lợi! ❤️",
+            "Sức khỏe pin trâu như Nokia, tâm hồn chill như cà phê tối, tình yêu mượt như capcut pro — sống là phải chất! ❤️🔥",
         money: 6888,
     },
     {
-        blessing: "Mọi nỗ lực của bạn sẽ được đền đáp xứng đáng! ⭐",
+        blessing:
+            "Những đêm âm thầm cố gắng sẽ đổi lại bằng spotlight rực rỡ — bạn không thua, bạn chỉ đang loading thành công thôi. ⭐💸",
         money: 5888,
     },
     {
-        blessing: "Cuộc sống mới tràn đầy niềm vui và hạnh phúc! 🌟",
+        blessing:
+            "Năm mới mở bát: vibe đỉnh, mood sáng, hạnh phúc không cần flex vẫn tự toả ra! 🌟💫",
         money: 9999,
     },
     {
-        blessing: "Tài lộc dồi dào, con đường thành công sáng lạn! 💰",
+        blessing:
+            "Tài khoản nhảy số như follow tăng sau một clip viral, tiền vô đều như deadline — nhưng lần này là deadline của thành công! 💰🚀",
         money: 3888,
     },
     {
-        blessing: "Những giấc mơ lớn của bạn sẽ trở thành sự thật! 🚀",
+        blessing:
+            "Dream big không còn là câu quote trên story, năm nay biến nó thành bản tin chính thức của cuộc đời bạn! 🚀🌈",
         money: 8888,
     },
     {
-        blessing: "Yêu thương và lòng tốt sẽ mang lại vinh quang! 💎",
+        blessing:
+            "Sống tử tế nhưng không ngây thơ, yêu thương nhưng không luỵ — bạn là phiên bản nâng cấp không cần update thêm! 💎🤍",
         money: 7777,
     },
     {
-        blessing: "Bạn sẽ gặp gỡ những người tốt bụng và giúp đỡ lẫn nhau! 🤝",
+        blessing:
+            "Ra đường gặp quý nhân, vào team gặp đồng đội xịn, tình bạn năm nay không toxic — chỉ toàn năng lượng sạch! 🤝✨",
         money: 5555,
     },
-    { blessing: "Phần thắng sẽ thuộc về những ai dám nỗ lực! 🏆", money: 6666 },
     {
-        blessing: "Cảm ơn vì chờ đợi, năm mới sẽ là năm của bạn! ✨",
+        blessing:
+            "Dám nghĩ dám làm, dám sai dám sửa — vì người thắng không phải người hoàn hảo, mà là người không bỏ cuộc. 🏆🔥",
+        money: 6666,
+    },
+    {
+        blessing:
+            "Chờ đủ lâu rồi thì tới lượt bạn viral cuộc đời mình — năm nay main character chính hiệu, không cameo nữa đâu! ✨👑",
         money: 10888,
     },
 ];
-
 export function FortuneCard() {
     const [open, setOpen] = useState(false);
     const [name, setName] = useState("");
